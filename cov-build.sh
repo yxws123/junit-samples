@@ -12,7 +12,6 @@ export JAVA_HOME=$HOME/apps/jdk
 export ANT_HOME=$HOME/apps/ant
 export PATH=$JAVA_HOME/bin:$JAVA_HOME/jre/bin:$ANT_HOME/bin:$PATH
 
-
 cd $HOME/workspace/junit-samples
 
 ant -buildfile build-offline-linux.xml clean emma all
