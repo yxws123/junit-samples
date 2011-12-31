@@ -1,12 +1,12 @@
 #!/bin/sh
 
-HOME=/home/shuo
-
 #export TOMCAT_HOME=/home/zozoh/opt/tomcat6
 #export JAVA_HOME=/home/shuo/apps/jdk
 #export DEPS=/home/zozoh/nutz/deps/core
 #export OUTPUT=/home/zozoh/nutz/output
 #export PROJECT_HOME=/home/zozoh/workspace/svn/nutz/nutz.trunk
+
+HOME=/home/shuo
 
 export JAVA_HOME=$HOME/apps/jdk
 export ANT_HOME=$HOME/apps/ant
