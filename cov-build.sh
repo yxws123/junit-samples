@@ -6,7 +6,7 @@
 #export OUTPUT=/home/zozoh/nutz/output
 #export PROJECT_HOME=/home/zozoh/workspace/svn/nutz/nutz.trunk
 
-HOME=/home/shuo0000000000000000000000000
+HOME=/home/shuo0
 
 export JAVA_HOME=$HOME/apps/jdk
 export ANT_HOME=$HOME/apps/ant
