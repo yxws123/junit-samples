@@ -8,7 +8,7 @@
 
 
   <!-- root directory for the example source code: --> 
-  <property name="src.dir" value="${basedir}/src:${basedir}/test" />
+  <property name="src.dir" value="${basedir}/src" />
   <property name="test.dir" value="${basedir}/test" />
 
   <!-- javac class output directory: -->
@@ -75,7 +75,7 @@
     <!-- 
 	<javac debug="on" srcdir="${src.dir}" destdir="${out.dir}" />
      -->
-    <javac debug="on" srcdir="${src.dir}" destdir="${out.dir}">
+    <javac debug="on" srcdir="${src.dir}:${test.dir}" destdir="${out.dir}">
 		<classpath refid="junit.lib" />
     </javac> 
   </target>
@@ -132,7 +132,7 @@
 
     <!-- if enabled, generate coverage report(s): -->
     <emma enabled="${emma.enabled}" >
-      <report sourcepath="${src.dir}"
+      <report sourcepath="${src.dir}:${test.dir}"
               sort="+block,+name,+method,+class"
               metrics="method:70,block:80,line:80,class:100"
       >
