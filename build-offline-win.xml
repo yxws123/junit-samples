@@ -8,7 +8,7 @@
 
 
   <!-- root directory for the example source code: --> 
-  <!--property name="src.dir" value="${basedir}/src" /-->
+  <!--property name="src.dir" value="${basedir}/src:${basedir}/test" /-->
   <property name="src.dir" value="${basedir}/src" />
   <property name="test.dir" value="${basedir}/test" />
 
